@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Seção</title>
+    <style>
+        .section {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .section img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+        .section-text {
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="section">
+        <img src="sua-imagem.jpg" alt="Descrição da imagem">
+        <div class="section-text">
+            <h2>Título da Seção</h2>
+            <p>Este é um exemplo de texto que pode acompanhar a imagem. Aqui você pode descrever o que quiser, adicionar informações relevantes ou até mesmo uma chamada para ação.</p>
+        </div>
+    </section>
+
+</body>
+</html>

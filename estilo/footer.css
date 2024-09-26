@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rodape-texto { 
+    background-color: #0369a1;
+    height: 120px;
+    width: 100%;
+    color: #faf6f6;
+    margin: 0;
+    padding: 0;
+    border-top: 6px solid #71717a;
+}
+
+
+footer a {
+    color: #010211;
+    text-decoration: none; 
+    color: #faf6f6;
+    margin-left: 10px;
+    
+}
+
+footer a:hover {
+    color: #d30c0c;
+    text-decoration: underline;
+} 
